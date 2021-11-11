@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- favicon-->
+    <link rel="stylesheet" href="img/favicon.ico" type="image/x-icon"/>
+    <!-- fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"/>
+    <!-- fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <!-- swiper slider-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <!-- animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- odometer -->
+    <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-minimal.css"/>
+    <!-- styles-->
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Master Keratina</title>
+  </head>
+  <body>
+    <!-- ======================================== socials-->
+    <div class="socials"> <a class="socials__link" href="https://www.instagram.com/master_keratina_lugansk/?hl=ru" target="_blank"><i class="fab fa-instagram"></i></a><a class="socials__link" href="https://vk.com/keratinluga" target="_blank"><i class="fab fa-vk"></i></a><a class="socials__link" href="" target="_blank"><i class="fab fa-youtube"></i></a></div>
+    <!-- ======================================== header-->
+    <header class="header">
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <div class="header__box"><img class="header__logo" src="img/header/logo_header.png" alt="logo"/>
+              <ul class="header__menu menu">
+                <li class="menu__item"><a class="menu__link" href="#about">о нас</a></li>
+                <li class="menu__item"><a class="menu__link" href="#services">услуги</a></li>
+                <li class="menu__item"><a class="menu__link" href="#advantages">преимущества</a></li>
+                <li class="menu__item"><a class="menu__link" href="#gallery">галерея</a></li>
+                <li class="menu__item"><a class="menu__link" href="#team">наша команда</a></li>
+                <li class="menu__item"><a class="menu__link" href="#reviews">отзывы</a></li>
+                <li class="menu__item"><a class="menu__link" href="#goods">наши товары</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contacts">контакты</a></li>
+              </ul>
+              <div class="header__connection connection"><img class="connection__icon" src="img/header/icon_viber.svg" alt="icon"/><a class="connection__num" href="">+38 072 589 74 23</a><img class="connection__icon" src="img/header/icon_watsap.svg" alt="icon"/></div>
+              <div class="visible-992">
+                <div class="gamburger"> <span> </span><span> </span><span> </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ======================================== home-->
+    <div class="home" id="home"> 
+      <div class="swiper-container"> 
+        <div class="swiper-wrapper"> 
+          <div class="swiper-slide"><img class="swiper-slide__img" src="img/home/slider_big_img_01.webp" alt="slide"/>
+            <div class="container full-width">
+              <div class="row"> 
+                <div class="col"> 
+                  <div class="swiper-slide__info slide-info"> 
+                    <div class="slide-info__title"> <span>Кератиновое </span><span>восстановление </span><span>волос</span></div>
+                    <p class="slide-info__text">Обработка прядей специальным кератиновым составом, который преображает волосы, насыщая их питательными веществами, «ремонтирует» поврежденные участки, увлажняет, запаивает секущиеся кончики и в целом улучшает состояние шевелюры</p>
+                    <button class="button slide-info__button" data-toggle="modal" data-target="#modal">узнать подробнее<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"><img class="swiper-slide__img" src="img/home/slider_big_img_01.webp" alt="slide"/>
+            <div class="container full-width">
+              <div class="row"> 
+                <div class="col"> 
+                  <div class="swiper-slide__info slide-info"> 
+                    <div class="slide-info__title"> <span>Кератиновое </span><span>восстановление </span><span>волос</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-navigation"> 
+          <button class="swiper-button-prev"><img src="img/home/icon_slider_left.svg" alt="arrow"/></button>
+          <button class="swiper-button-next"><img src="img/home/icon_slider_right.svg" alt="arrow"/></button>
+        </div>
+      </div>
+    </div>
+    <!-- ======================================== about-->
+    <section class="about" id="about"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <h1 class="section-title about__title">О нас</h1>
+            <div class="about__box"> 
+              <div class="about__imgs">
+                <div class="about__row">
+                  <div class="about__icon"> <img src="img/about/icon_aboutus_scissors.svg" alt="icon"/></div><img class="lazy about__foto" data-src="img/about/foto_1.webp" alt="foto"/><img class="lazy about__foto" data-src="img/about/foto_2.webp" alt="foto"/>
+                  <div class="about__icon"> <img src="img/about/icon_aboutus_painting.svg" alt="icon"/></div>
+                </div>
+                <div class="about__row"><img class="lazy about__foto" data-src="img/about/foto_3.webp" alt="foto"/><img class="lazy about__foto about__foto--central" data-src="img/about/foto_5.webp" alt="foto"/><img class="lazy about__foto" data-src="img/about/foto_4.webp" alt="foto"/></div>
+              </div>
+              <div class="about__info info-about">
+                <div class="info-about__title">Наш салон является лучшим в Луганске, и вот почему! </div>
+                <p class="info-about__text">
+                   Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Она пояс силуэт буквенных, большой текстами что, вскоре продолжил курсивных до наш злых! Составитель алфавит своих всеми, гор знаках пустился?
+                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Она пояс силуэт буквенных, большой текстами что, вскоре продолжил курсивных до наш злых! Составитель алфавит своих всеми, гор знаках пустился?
+                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Она пояс силуэт буквенных, большой текстами что, вскоре продолжил курсивных до наш злых! Составитель алфавит своих всеми, гор знаках пустился?
+                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Она пояс силуэт буквенных, большой текстами что, вскоре продолжил курсивных до наш злых! Составитель алфавит своих всеми, гор знаках пустился?
+                </p>
+                <button class="info-about__button button" data-toggle="modal" data-target="#modal">
+                   записаться в салон<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== services-->
+    <section class="services" id="services"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <h2 class="section-title services__title">Услуги</h2>
+            <div class="services__box"> 
+                  <div class="services__item service"> <img class="lazy service__img" data-src="img/services/foto_1.webp" alt="service"/>
+                    <div class="service__content"> <b class="service__name">окрашивание</b><span class="service__price">от 1000 руб </span>
+                      <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                      <button class="service__button button" data-toggle="modal" data-target="#modal">
+                         записаться<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                    </div>
+                  </div>
+                  <div class="services__item service"> <img class="lazy service__img" data-src="img/services/foto_2.webp" alt="service"/>
+                    <div class="service__content"> <b class="service__name">маникюр</b><span class="service__price">от 1000 руб </span>
+                      <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                      <button class="service__button button" data-toggle="modal" data-target="#modal">
+                         записаться<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                    </div>
+                  </div>
+                  <div class="services__item service"> <img class="lazy service__img" data-src="img/services/foto_3.webp" alt="service"/>
+                    <div class="service__content"> <b class="service__name">педикюр</b><span class="service__price">от 1000 руб </span>
+                      <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Risus commodo viverra maecenas accumsan lacus vel facilisis</p>
+                      <button class="service__button button" data-toggle="modal" data-target="#modal">
+                         записаться<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                    </div>
+                  </div>
+                  <div class="services__item service"> <img class="lazy service__img" data-src="img/services/foto_4.webp" alt="service"/>
+                    <div class="service__content"> <b class="service__name">ботокс</b><span class="service__price">от 1000 руб </span>
+                      <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                      <button class="service__button button" data-toggle="modal" data-target="#modal">
+                         записаться<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                    </div>
+                  </div>
+                  <div class="services__item service"> <img class="lazy service__img" data-src="img/services/foto_5.webp" alt="service"/>
+                    <div class="service__content"> <b class="service__name">массаж</b><span class="service__price">от 1000 руб </span>
+                      <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                      <button class="service__button button" data-toggle="modal" data-target="#modal">
+                         записаться<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                    </div>
+                  </div>
+                  <div class="services__item service"> <img class="lazy service__img" data-src="img/services/foto_6.webp" alt="service"/>
+                    <div class="service__content"> <b class="service__name">шугаринг</b><span class="service__price">от 1000 руб </span>
+                      <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                      <button class="service__button button" data-toggle="modal" data-target="#modal">
+                         записаться<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== advantages-->
+    <section class="advantages" id="advantages"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <h3 class="section-title services__title">Преимущества</h3>
+            <div class="advantages__box">
+              <div class="advantages__item"><img class="lazy advantages__foto" data-src="img/advantages/benefits_girl_01.webp" alt="foto"/></div>
+                  <div class="advantages__item"><img class="advantages__icon" src="img/logo_sign.png" alt="icon"/>
+                    <p class="advantages__name">мы профессионалы</p>
+                  </div>
+                  <div class="advantages__item"><img class="advantages__icon" src="img/logo_sign.png" alt="icon"/>
+                    <p class="advantages__name">вы для нас уникальны</p>
+                  </div>
+                  <div class="advantages__item"><img class="advantages__icon" src="img/logo_sign.png" alt="icon"/>
+                    <p class="advantages__name">до нас удобно добираться</p>
+                  </div>
+                  <div class="advantages__item"><img class="advantages__icon" src="img/logo_sign.png" alt="icon"/>
+                    <p class="advantages__name">у нас уютно</p>
+                  </div>
+                  <div class="advantages__item"><img class="advantages__icon" src="img/logo_sign.png" alt="icon"/>
+                    <p class="advantages__name">вы не захотите от нас уходить</p>
+                  </div>
+                  <div class="advantages__item"><img class="advantages__icon" src="img/logo_sign.png" alt="icon"/>
+                    <p class="advantages__name">с нас кофе :)</p>
+                  </div>
+              <div class="advantages__item"><img class="lazy advantages__foto" data-src="img/advantages/benefits_girl_02.webp" alt="foto"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== statistic-->
+    <div class="statistic"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col"> 
+            <div class="statistic__box">
+              <div class="statistic__item"> <img class="statistic__icon" src="img/statistic/icon_statistics_01.svg" alt="icon"/>
+                <div class="statistic__val client">984</div><span class="statistic__name">клиентов</span>
+              </div>
+              <div class="statistic__item"> <img class="statistic__icon" src="img/statistic/icon_statistics_02.svg" alt="icon"/>
+                <div class="statistic__val thanks">763</div><span class="statistic__name">спасибо</span>
+              </div>
+              <div class="statistic__item"> <img class="statistic__icon" src="img/statistic/icon_statistics_03.svg" alt="icon"/>
+                <div class="statistic__val diplom">27</div><span class="statistic__name">дипломов</span>
+              </div>
+              <div class="statistic__item"> <img class="statistic__icon" src="img/statistic/icon_statistics_04.svg" alt="icon"/>
+                <div class="statistic__val coffee">1537</div><span class="statistic__name">чашек кофе</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======================================== gallery-->
+    <section class="gallery" id="gallery"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <h4 class="section-title gallery__title">Галерея</h4>
+            <div class="swiper-container"> 
+              <button class="swiper-button-next"> <img src="img/gallery/icon_slider_gallery_top.svg" alt="icon"/></button>
+              <div class="swiper-pagination"></div>
+              <button class="swiper-button-prev"> <img src="img/gallery/icon_slider_gallery_botom.svg" alt="icon"/></button>
+              <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <img class="lazy" data-src="img/gallery/03.webp" alt="slide"/></div>
+                    <div class="swiper-slide"> <img class="lazy" data-src="img/gallery/04.webp" alt="slide"/></div>
+                    <div class="swiper-slide"> <img class="lazy" data-src="img/gallery/05.webp" alt="slide"/></div>
+                    <div class="swiper-slide"> <img class="lazy" data-src="img/gallery/04.webp" alt="slide"/></div>
+              </div>
+            </div>
+            <div class="gallery__img"><img src="img/gallery/pic_gallery_woman.webp" alt="woman"/></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== team-->
+    <section class="team" id="team"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <h5 class="section-title team__title">Наша команда</h5>
+            <div class="swiper-container"> 
+              <div class="swiper-wrapper">
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_10.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">яна петрова</b>
+                          <p class="team__description">Технолог-преподаватель</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_09.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">виктория постыка</b>
+                          <p class="team__description">Администратор</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_08.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">евгения ковалева</b>
+                          <p class="team__description">Администратор</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_07.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">дарья мишина</b>
+                          <p class="team__description">Мастер по шугарингу</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_06.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">александра подлащик</b>
+                          <p class="team__description">Мастер кератинового выпрямления и восстановления волос</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_05.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">валентина андрийчук</b>
+                          <p class="team__description">Мастер парикмахер-колорист</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_04.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">алена черешнева</b>
+                          <p class="team__description">Мастер маникюра</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_03.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">ирина косивцова</b>
+                          <p class="team__description">Мастер ногтевого сервиса</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_02.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">шульга татьяна</b>
+                          <p class="team__description">Мастер перманентного макияжа</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                      <div class="team__item">
+                        <div class="team__img"> <img class="lazy" data-src="img/team/team_pic_01.webp" alt="team"/></div>
+                        <div class="team__info"><b class="team__name">виктория зверева</b>
+                          <p class="team__description">Мастер корректирующего массажа и омоложения лица</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+            <div class="swiper__navigation">
+              <button class="swiper-button-prev"> <img src="img/icon_slider_gallery_left.svg" alt="icon"/></button>
+              <div class="swiper-pagination"></div>
+              <button class="swiper-button-next"><img src="img/icon_slider_gallery_right.svg" alt="icon"/></button>
+            </div>
+            <button class="team__button button" data-toggle="modal" data-target="#modal">
+               записаться в салон<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== reviews-->
+    <section class="reviews" id="reviews"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <h6 class="section-title reviews__title">Наши клиенты</h6>
+            <div class="swiper-container"> 
+              <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="reviews__item"> 
+                        <div class="reviews__content content-reviews"> <i class="content-reviews__title">“Супер!”</i>
+                          <p class="content-reviews__text">“Отличный салон и мастера класные! Советую всем! Посоветовали отличную стрижку, я очень довольна!”</p>
+                        </div>
+                        <div class="reviews__author author"> 
+                          <div class="author__foto"> <img class="lazy" data-src="img/reviews/review_1.jpg" alt="review"/></div>
+                          <p class="author__name">саша к.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="reviews__item"> 
+                        <div class="reviews__content content-reviews"> <i class="content-reviews__title">“Обалдеть!”</i>
+                          <p class="content-reviews__text">“Просто топчик! Девченки красивые и при том классные специалисты! Теперь я ваш постоянный клиент!”</p>
+                        </div>
+                        <div class="reviews__author author"> 
+                          <div class="author__foto"> <img class="lazy" data-src="img/reviews/review_2.jpg" alt="review"/></div>
+                          <p class="author__name">сергей к.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="reviews__item"> 
+                        <div class="reviews__content content-reviews"> <i class="content-reviews__title">“Рекомендую!”</i>
+                          <p class="content-reviews__text">“Мастера просто супер! Вежливые, культурные и действительно профессионалы своего дела. Я очень довольна!”</p>
+                        </div>
+                        <div class="reviews__author author"> 
+                          <div class="author__foto"> <img class="lazy" data-src="img/reviews/review_3.jpg" alt="review"/></div>
+                          <p class="author__name">елена к.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="reviews__item"> 
+                        <div class="reviews__content content-reviews"> <i class="content-reviews__title">“Все круто!”</i>
+                          <p class="content-reviews__text">“Мне сложно угодить, но здесь все делают на 5 с плюсом. Рассказала всем подругам)”</p>
+                        </div>
+                        <div class="reviews__author author"> 
+                          <div class="author__foto"> <img class="lazy" data-src="img/reviews/review_4.jpg" alt="review"/></div>
+                          <p class="author__name">евгения в.</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+            <div class="swiper__navigation">
+              <button class="swiper-button-prev"> <img src="img/icon_slider_gallery_left.svg" alt="icon"/></button>
+              <div class="swiper-pagination"></div>
+              <button class="swiper-button-next"><img src="img/icon_slider_gallery_right.svg" alt="icon"/></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== feedback-->
+    <section class="feedback" id="feedback"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col-lg-8 offset-lg-2">
+            <form class="feedback__form form" action="#">
+              <h6 class="feedback__title">Напишите нам</h6>
+              <p class="feedback__text">* - обязательные поля</p>
+              <div class="form__fields"> 
+                <div class="form__item">
+                  <label class="form__label">Контактное лицо <span>*</span></label>
+                  <input class="form__input" type="text"/>
+                </div>
+                <div class="form__item">
+                  <label class="form__label">Телефон <span>*</span></label>
+                  <input class="form__input phone" type="text"/>
+                </div>
+                <div class="form__item">
+                  <label class="form__label">E-mail </label>
+                  <input class="form__input" type="text"/>
+                </div>
+                <div class="form__item form__item--message"> 
+                  <label class="form__label">Сообщение</label>
+                  <textarea class="form__input"></textarea>
+                </div>
+              </div>
+              <div class="form__agree agree">
+                <input class="agree__check" id="checkbox" type="checkbox" checked="checked"/>
+                <label class="agree__label agree__label--checkbox" for="checkbox"> <span>Согласен на обработку <a href="">персональных данных</a></span></label>
+              </div>
+              <button class="form__button">отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== goods-->
+    <section class="goods" id="goods"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col">
+            <h6 class="section-title goods__title">Наши товары</h6>
+            <div class="goods__box"> 
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/01.png" alt="good"/><b class="good__name">краска для волос</b><i class="good__price">от 500 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">краска для волос</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/02.png" alt="good"/><b class="good__name">тонирующий спрей</b><i class="good__price">от 150 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">тонирующий спрей</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/01.png" alt="good"/><b class="good__name">краска для волос</b><i class="good__price">от 500 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">краска для волос</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/02.png" alt="good"/><b class="good__name">тонирующий спрей</b><i class="good__price">от 150 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">тонирующий спрей</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/01.png" alt="good"/><b class="good__name">краска для волос</b><i class="good__price">от 500 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">краска для волос</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/02.png" alt="good"/><b class="good__name">тонирующий спрей</b><i class="good__price">от 150 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">тонирующий спрей</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <button class="goods__button button closed">
+               показать больше товаров<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+            <div class="goods__box goods__more"> 
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/01.png" alt="good"/><b class="good__name">краска для волос</b><i class="good__price">от 500 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">краска для волос</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/02.png" alt="good"/><b class="good__name">тонирующий спрей</b><i class="good__price">от 150 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">тонирующий спрей</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/01.png" alt="good"/><b class="good__name">краска для волос</b><i class="good__price">от 500 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">краска для волос</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/02.png" alt="good"/><b class="good__name">тонирующий спрей</b><i class="good__price">от 150 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">тонирующий спрей</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/01.png" alt="good"/><b class="good__name">краска для волос</b><i class="good__price">от 500 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">краска для волос</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__item good">
+                    <div class="good__content">
+                      <div class="good__overlay"> 
+                        <button class="good__button button">
+                           прайс<img src="img/icon_arrow_cta.svg" alt="arrow"/></button>
+                      </div>
+                      <div class="good__preview"><img class="lazy good__img" data-src="img/goods/02.png" alt="good"/><b class="good__name">тонирующий спрей</b><i class="good__price">от 150 руб.</i></div>
+                      <div class="good__hidden"><b class="good__name">тонирующий спрей</b>
+                        <ul class="good__pricelist"> 
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                          <li> <span>объем 150мл </span><span class="good__priceitem">500р.</span></li>
+                        </ul>
+                        <button class="good__order" data-toggle="modal" data-target="#modal">заказать</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================== contacts-->
+    <div class="contacts" id="contacts"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col"> <img class="contacts__logo" src="img/header/logo_header.png" alt="logo"/></div>
+        </div>
+        <div class="row"> 
+          <div class="col-lg-3">
+            <div class="contacts__col"> 
+              <div class="contacts__item contact">
+                <div class="contact__name"><img class="contact__icon" src="img/footer/icon_footer_salon.svg" alt="icon"/>Салон</div>
+                <div class="contact__val">г. Луганск, кв. Лиховида 1, ост.Городок</div>
+              </div>
+              <div class="contacts__item contact"> 
+                <div class="contact__name"><img class="contact__icon" src="img/footer/icon_footer_clock.svg" alt="icon"/>График работы:</div>
+                <div class="contact__val">
+                   Пн-Пт - с 9:00 до 20:00 <br>Сб-Вс - с 10:00 до 18:00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4"> 
+            <div class="contacts__col"> 
+              <div class="contacts__item contact"> 
+                <div class="contact__name"><img class="contact__icon" src="img/footer/icon_footer_phone.svg" alt="icon"/>Телефон</div><a class="contact__val" href="tel:+380721476588">+38 (072) 147-65-88</a>
+              </div>
+              <div class="contacts__item contact"> 
+                <div class="contact__name"><img class="contact__icon" src="img/footer/icon_footer_email.svg" alt="icon"/>E-mail</div><a class="contact__val" href="mailto:email@mail.ru">email@mail.ru</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5"> 
+            <div class="contact">
+              <div class="contact__name"><img class="contact__icon" src="img/footer/icon_footer_location.svg" alt="icon"/>Как нас найти</div>
+              <div class="contact__map" id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======================================== footer-->
+    <footer class="footer"> 
+      <p class="footer__copyright">© 2021 «МастерКератин»</p>
+    </footer>
+    <!-- ======================================== modal-->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img src="img/close_btn.png" alt="close"/></button>
+          <div class="modal-body">
+            <form class="modal__form form" action="#">
+              <h6 class="feedback__title">Напишите нам </h6>
+              <p class="feedback__text">* - обязательные поля</p>
+              <div class="form__fields"> 
+                <input class="form__input--hidden" type="text" value="" style="display:none"/>
+                <div class="form__item">
+                  <label class="form__label">Контактное лицо <span>*</span></label>
+                  <input class="form__input" type="text"/>
+                </div>
+                <div class="form__item">
+                  <label class="form__label">Телефон <span>*</span></label>
+                  <input class="form__input phone" type="text"/>
+                </div>
+                <div class="form__item">
+                  <label class="form__label">E-mail </label>
+                  <input class="form__input" type="text"/>
+                </div>
+                <div class="form__item form__item--message"> 
+                  <label class="form__label">Сообщение</label>
+                  <textarea class="form__input"></textarea>
+                </div>
+              </div>
+              <div class="form__agree agree">
+                <input class="agree__check" id="checkbox1" type="checkbox" checked="checked"/>
+                <label class="agree__label agree__label--checkbox" for="checkbox1"> <span>Согласен на обработку <a href="">персональных данных</a></span></label>
+              </div>
+              <button class="form__button">отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======================================== scripts-->
+    <!-- jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- fancybox-->
+    <!-- script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")-->
+    <!-- inputmask-->
+    <!-- script(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js")-->
+    <!-- swiper slider-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- odometer -->
+    <script src="https://github.hubspot.com/odometer/odometer.js"></script>
+    <!-- yandex map-->
+    <!-- script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU")-->
+    <!-- GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <!-- scripts-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
