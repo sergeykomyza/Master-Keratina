@@ -96,29 +96,28 @@ document.addEventListener('DOMContentLoaded', function () {
     // });
 })
 // ================================================== inputmask
-// $(document).ready(function () {
-//     $(":input").inputmask();
-//     $(".phone").inputmask({
-//         mask: "+38 (999) 999 99 99",
-//         clearIncomplete: true
-//     });
-//     $('.email').inputmask({
-//         mask: "*{1,20}[.*{1,20}]@*{1,20}.*{2,4}",
-//         greedy: false,
-//         clearIncomplete: true,
-//         onBeforePaste: function (pastedValue, opts) {
-//             pastedValue = pastedValue.toLowerCase();
-//             return pastedValue.replace("mailto:", "");
-//         },
-//         definitions: {
-//             '*': {
-//                 validator: "[0-9A-Za-z-а-я-]",
-//                 casing: "lower"
-//             }
-//         }
-//     }
-//     );
-// });
+$(document).ready(function () {
+    $(".js-maskPhone").inputmask({
+        mask: "+38 (999) 999 99 99",
+        clearIncomplete: true
+    });
+    $('.email').inputmask({
+        mask: "*{1,20}[.*{1,20}]@*{1,20}.*{2,4}",
+        greedy: false,
+        clearIncomplete: true,
+        onBeforePaste: function (pastedValue, opts) {
+            pastedValue = pastedValue.toLowerCase();
+            return pastedValue.replace("mailto:", "");
+        },
+        definitions: {
+            '*': {
+                validator: "[0-9A-Za-z-а-я-]",
+                casing: "lower"
+            }
+        }
+    }
+    );
+});
 // ================================================== swiper slider on Home section
 const swiper = new Swiper(".home .swiper-container", {
     effect: "fade",
@@ -268,7 +267,7 @@ const swiper3 = new Swiper(".reviews .swiper-container", {
     effect: "coverflow",
     slidesPerView: 3,
     spaceBetween: 0,
-    loop: 'true',
+    loop: false,
     speed: 1000,
     pagination: {
         el: ".reviews .swiper-pagination",
